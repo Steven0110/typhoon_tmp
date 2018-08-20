@@ -32,15 +32,18 @@ class AdminController extends Controller
     public function logout(){   
         Auth::logout();
         return redirect()
-                ->route('admin')
+                ->route('getLogin')
                 ->with('mensaje_error', 'Tu sesión ha sido cerrada.');
 
 
     }
-    public function getAdminIndex(){
-    	return "Eres admin";
+    public function getAdminIndex(Request $request){
+        return View('admin')->with(Auth::user());
     }
-    public function getUserIndex(){
-    	return "Eres user";
+    public function getUserIndex(Request $request){
+        $data = [
+            'user' => Auth::user()
+        ];
+    	return view('user')->with($data);
     }
 }

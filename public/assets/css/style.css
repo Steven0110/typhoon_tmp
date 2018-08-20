@@ -207,6 +207,82 @@ body, html{
 /****************************/
 /* 							*/
 /* 							*/
+/* 		DASHBOARD			*/
+/* 							*/
+/* 							*/
+/****************************/
+.admin-menu{
+	background-color: white;
+	color: black;
+	padding: 25px;
+}
+.admin-header h4{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #2E7E99;
+	color: white;
+}
+.menu .client p{
+	color: #2E7E99;
+}
+.menu .options a{
+	color: #2E7E99;
+	text-decoration: none;
+}
+.file-card{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
+	margin-top: -25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.file-card.blue{
+	background: #235e9f; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #235e9f 0%, #94ded0 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #235e9f 0%,#94ded0 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #235e9f 0%,#94ded0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.file-card.red{
+	background: #ed4a72; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #ed4a72 1%, #ff7c22 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #ed4a72 1%,#ff7c22 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #ed4a72 1%,#ff7c22 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.file-card.green{
+	background: #1ba43c; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #1ba43c 1%, #51c1c3 99%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #1ba43c 1%,#51c1c3 99%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #1ba43c 1%,#51c1c3 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.files-container{
+	padding: 50px;
+}
+.filetype-link{
+	color: white;
+	padding: 50px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.filetype-link:hover{
+	color: white;
+}
+a.file{
+	display: block;
+	padding: 5px;
+	background-color: white;
+	border-radius: 5px;
+	-webkit-box-shadow: 3px 3px 16px 0px rgba(0,0,0,0.33);
+	-moz-box-shadow: 3px 3px 16px 0px rgba(0,0,0,0.33);
+	box-shadow: 3px 3px 16px 0px rgba(0,0,0,0.33);
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+/****************************/
+/* 							*/
+/* 							*/
 /* 		ANIMATIONS			*/
 /* 							*/
 /* 							*/

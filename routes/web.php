@@ -23,3 +23,4 @@ Route::group(['prefix' => 'dashboard', 'middleware' => 'check_auth'], function()
 });
 
 Route::post('login', 'AdminController@login')->name('login');
+Route::get('logout', 'AdminController@logout')->name('logout');
