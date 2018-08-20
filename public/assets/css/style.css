@@ -1,0 +1,218 @@
+/****************************/
+/* 							*/
+/* 							*/
+/* 			HEADER			*/
+/* 							*/
+/* 							*/
+/****************************/
+.container-fluid{
+	overflow-x: hidden;
+}
+header{
+	background: #001928;
+	color: white;
+	font-size: 0.85em;
+}
+div.header-container{
+	text-align: center;
+}
+div.header-container .header-logo{
+	display: inline-block;
+	max-height: 100%;
+	padding: 10px;
+}
+div.header-container .header-logo img{
+	height: 40px;
+	max-height: 100%;
+}
+ul.menu{
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	margin-left: 450px;
+	padding: 0;
+}
+ul.menu li.menu-item{
+	display: inline-block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+ul.menu li.menu-item{
+    cursor: pointer;
+}
+ul.menu li.menu-item a{
+    transition: 0.2s linear all;
+	text-decoration: inherit;
+    color: inherit;
+	padding: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+ul.menu li.menu-item:hover{
+    transition: 0.2s linear all;
+	background-color: #6BE7D7;
+	color: #001928;
+}
+ul.menu li.btn-login{
+	display: inline-block;
+    cursor: pointer;
+	background-color: #6BE7D7;
+	color: #001928;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ul.menu li.btn-login a{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+ul.menu li.btn-login:hover{
+	background-color: #23DCC5;
+}
+
+/****************************/
+/* 							*/
+/* 							*/
+/* 			LOGIN			*/
+/* 							*/
+/* 							*/
+/****************************/
+body, html{
+	height: 100%;
+}
+.login-page{
+	background: url('../img/Log-In.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.login-container{
+	font-size: 0.8em;
+	position: fixed;
+	top: 17%;
+	left:0;
+	right:0;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,255, 0.8);
+	border-radius: 10px 10px 0 0;
+	width: 500px;
+	padding: 25px;
+	padding-bottom: 0px;
+}
+.login-container::after{
+	left:0;
+	content: '';
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #21FBF4;
+}
+.login-container::before{
+	left:0;
+	content: '';
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	background-color: #1B334B;
+}
+.login-container small{
+	font-size: 0.9em;
+	color: #1B334B;
+}
+.login-container p.title-icon{
+	font-size: 1.8em;
+	margin-bottom: 0;
+}
+.btn-login{
+	border-radius: 50%;
+	background-color: #1B334B;
+	color: #21FBF4;
+	font-weight: 100;
+}
+.oi:empty:before{
+	margin-left: 4px;
+}
+
+/****************************/
+/* 							*/
+/* 							*/
+/* 			FOOTER			*/
+/* 							*/
+/* 							*/
+/****************************/
+.footer{
+	font-size: 0.85em;
+	position: absolute;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	bottom: 0%;
+	width: 101.5%;
+	background-color: #001928;
+	color: white;
+}
+.footer .logo-section{
+	text-align: center;
+}
+.footer .logo-section img{
+	margin-top: 20px;
+	display: inline-block;
+	max-width: 100%;
+}
+.footer .footer-menu{
+	/*padding-left: 20px;*/
+}
+.footer .footer-menu p{
+	margin-left: 10px;
+}
+.footer .footer-menu ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.footer .footer-menu ul li{
+	margin-top: 5px;
+	padding-left: 15px;
+}
+.footer .footer-menu ul li:before{
+	transform: scaleY(2);
+    content: "►";
+    display: block;
+    float: left;
+    width: 1em;
+    color: #87DAD2;
+    margin-right: 10px;
+    position: absolute;
+	left: 20px;
+}
+.footer .footer-menu ul li:hover::before{
+	animation-name: footer-bouncing-bullets;
+	animation-direction: normal;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+}
+.footer .footer-menu ul li a{
+	color: white;
+}
+.footer p img{
+	max-height: 40px;
+}
+.no-anchor{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/****************************/
+/* 							*/
+/* 							*/
+/* 		ANIMATIONS			*/
+/* 							*/
+/* 							*/
+/****************************/
+@keyframes footer-bouncing-bullets{
+	0%{left:20px;}
+	50%{left:16px;}
+	100%{left:20px;}
+}
