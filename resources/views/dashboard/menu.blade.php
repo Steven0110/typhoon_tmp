@@ -13,7 +13,12 @@
 		<br/>
 	</div>
 	<div class="options">
-		<p><a href="#"><span class="oi oi-file"></span> ARCHIVOS</a></p>
+
+		@if($user->rol == 1)
+			<p><a href="/dashboard/user"><span class="oi oi-file"></span>ARCHIVOS</a></p>
+		@else
+			<p><a href="/dashboard/admin"><span class="oi oi-person"></span>USUARIOS</a></p>
+		@endif
 		<p><a href="{{URL::route('logout')}}"><span class="oi oi-account-logout"></span> CERRAR SESIÓN</a></p>
 	</div>
 </div>

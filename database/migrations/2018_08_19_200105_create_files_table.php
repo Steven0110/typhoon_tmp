@@ -18,6 +18,7 @@ class CreateFilesTable extends Migration
             $table->increments('id');
             $table->string('filename');
             $table->integer('type');
+            $table->timestamps();
 
 
             $table->unsignedInteger('user_id');
@@ -34,6 +35,6 @@ class CreateFilesTable extends Migration
     public function down()
     {
         //
-        Schemma::dropIfExists('files');
+        Schema::dropIfExists('files');
     }
 }

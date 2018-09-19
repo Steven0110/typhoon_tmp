@@ -1,16 +1,19 @@
 <h4 class="text-center">
-	Documentación
+	Documentación de {{$_user->name}}
 	<div class="add-files">
 		<button class="btn btn-primary btn-add-files">+ Agregar nuevo archivo</button>
 	</div>
 </h4>
 
 <div class="add-files-modal d-none">
-	<form action="/dashboard/selfUploadFile" method="POST" enctype="multipart/form-data">
+	<form action="/dashboard/uploadFileToUser" method="POST" enctype="multipart/form-data">
 		<div class="closer">
 			<span><strong>X</strong></span>
 		</div>
 		{{csrf_field()}}
+
+		<input type="text" class="d-none" name="user_id" value="{{$_user->id}}"/>
+
 		<div class="row mb-2 mt-3">
 			<div class="col-md-12">
 				<h3>Agregar archivo</h3>

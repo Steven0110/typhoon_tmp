@@ -9,9 +9,9 @@
 				@include('dashboard.menu')
 			</div>
 			<div class="col-md-10 admin-header p-0">
-				@include('dashboard.header')
+				@include('dashboard.u_header')
 
-				@include('dashboard.file-icons')
+				@include('dashboard.u_file-icons')
 
 				@include('dashboard.files')
 			</div>

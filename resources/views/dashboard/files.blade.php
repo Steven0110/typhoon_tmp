@@ -1,36 +1,21 @@
 <div class="row">
 	<div class="col-md-12 files-container">
 		<div class="row">
-			<div class="col-md-6">
-				<a class="file" href="storage/asdasdads.jpg">
-					<span class="oi oi-rss-alt"></span>
-					<span class="filenam">ExcelCSV-Agosto</span>
-				</a>
+			@forelse($files as $file)
+			<div class="col-md-6 ">
+				<div class="file-block">
+					<a class="file" href="/storage/{{$file->filename}}">
+						<span class="oi oi-rss-alt"></span>
+						<span class="filename">{{$file->original_filename}}</span>
+					</a>
+					<button type="button" class="btn btn-danger btn-erase float-right" data-id="{{$file->id}}" data-name="{{$file->original_filename}}">X</button>
+				</div>
 			</div>
-			<div class="col-md-6">
-				<a class="file" href="storage/asdasdads.jpg">
-					<span class="oi oi-rss-alt"></span>
-					<span class="filenam">ExcelCSV-Agosto</span>
-				</a>
+			@empty
+			<div class="col-md-12">
+				<h2 class="text-center">Sin archivos</h2>
 			</div>
-			<div class="col-md-6">
-				<a class="file" href="storage/asdasdads.jpg">
-					<span class="oi oi-rss-alt"></span>
-					<span class="filenam">ExcelCSV-Agosto</span>
-				</a>
-			</div>
-			<div class="col-md-6">
-				<a class="file" href="storage/asdasdads.jpg">
-					<span class="oi oi-rss-alt"></span>
-					<span class="filenam">ExcelCSV-Agosto</span>
-				</a>
-			</div>
-			<div class="col-md-6">
-				<a class="file" href="storage/asdasdads.jpg">
-					<span class="oi oi-rss-alt"></span>
-					<span class="filenam">ExcelCSV-Agosto</span>
-				</a>
-			</div>
+			@endforelse
 		</div>
 	</div>
 </div>

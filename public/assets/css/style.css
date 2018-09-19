@@ -68,6 +68,89 @@ ul.menu li.btn-login a{
 ul.menu li.btn-login:hover{
 	background-color: #23DCC5;
 }
+.add-files, .btn-add-user{
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+.btn-add-files, .btn-add-files:active, .btn-add-user, .btn-add-user:active {
+	background: -moz-linear-gradient(-45deg, #ff8a19 0%, #8de859 100%) !important; /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #ff8a19 0%,#8de859 100%) !important; /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #ff8a19 0%,#8de859 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.add-files-modal, .add-user-modal{
+	position: fixed;
+	width: 400px;
+	left:0;
+	right:0;
+	top:25%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: rgba(11, 37, 52, 0.9);
+	z-index: 999;
+}
+.add-user-modal{
+	top:15%;
+	width: 500px;
+}
+.add-files-modal .closer, .add-user-modal .closer{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+	color:white;
+}
+.add-files-modal .closer:hover, .add-user-modal .closer:hover{
+	cursor: pointer;
+	z-index: 9999;
+}
+.add-files-modal h3, .add-user-modal h3{
+	color: white;
+}
+.add-files-modal h4 .add-user-modal h4, .add-user-modal label{
+	color: white;
+}
+.add-files-modal .btn-add:active{
+	background: -moz-linear-gradient(-45deg, #26df00 0%, #00f79d 100%) !important; /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #26df00 0%,#00f79d 100%) !important; /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #26df00 0%,#00f79d 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.add-files-modal .btn-add{
+	background: -moz-linear-gradient(-45deg, #26df00 0%, #00f79d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #26df00 0%,#00f79d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #26df00 0%,#00f79d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+
+.delete-file-modal{
+	position: fixed;
+	width: 400px;
+	left:0;
+	right:0;
+	top:25%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: rgba(11, 37, 52, 0.9);
+	z-index: 999;
+}
+.delete-file-modal h3, .delete-file-modal h5{
+	color: white;
+}
+.delete-file-modal .btn-del{
+	background: -moz-linear-gradient(-45deg, #26df00 0%, #00f79d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #26df00 0%,#00f79d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #26df00 0%,#00f79d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.delete-file-modal .btn-del:active{
+	background: -moz-linear-gradient(-45deg, #26df00 0%, #00f79d 100%) !important; /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #26df00 0%,#00f79d 100%) !important; /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #26df00 0%,#00f79d 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
 
 /****************************/
 /* 							*/
@@ -216,7 +299,7 @@ body, html{
 	color: black;
 	padding: 25px;
 }
-.admin-header h4{
+.admin-header > h4{
 	padding-top: 40px;
 	padding-bottom: 40px;
 	background-color: #2E7E99;
@@ -268,8 +351,9 @@ body, html{
 .filetype-link:hover{
 	color: white;
 }
-a.file{
-	display: block;
+.file-block{
+	/*display: inline-block;
+	width: 90%;*/
 	padding: 5px;
 	background-color: white;
 	border-radius: 5px;
@@ -278,6 +362,10 @@ a.file{
 	box-shadow: 3px 3px 16px 0px rgba(0,0,0,0.33);
 	margin-top: 6px;
 	margin-bottom: 6px;
+}
+.btn-erase{
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 /****************************/
