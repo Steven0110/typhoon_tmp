@@ -39,10 +39,6 @@ This branch (gh-pages) is structured for GitHub Pages hosting:
    - Under "GitHub Pages", select the "gh-pages" branch as the source
    - The site will be published at https://yourusername.github.io/repository-name/
 
-## Setup Instructions (Alternative Hosting)
-
-If not using GitHub Pages, simply place the entire project on any web server or hosting service. No database or backend is required as this is a static site.
-
 ## Development Notes
 
 ### Technologies Used
