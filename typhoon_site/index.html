@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Typhoon</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/styles/styles.css">
+	<link rel="stylesheet" href="assets/icons/open-iconic-master/font/css/open-iconic.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/animate.css">
+	<link rel="shortcut icon" href="assets/images/favicon.png" />
+
+</head>
+<body>
+	<div class="container-fluid p-0">
+		<!-- HEADER SECTION  -->
+		<div class="row sticky-header d-none d-md-block">
+			<div class="col-md-12">
+				
+				<header class="animated fadeInDown slow">
+					<div class="header-container row">
+						<div class="col-md-12">
+							<div class="header-logo">
+								<img src="assets/images/Logo-Typhoon.png" alt="Typhoon Logo">
+							</div>
+							<ul class="menu"><!--
+							    --><li class="menu-item"><a href="#inicio">INICIO</a></li><!--
+								--><li class="menu-item"><a href="#somos">SOMOS</a></li><!--
+								--><li class="menu-item"><a href="#servicios">SERVICIOS</a></li><!--
+								--><li class="menu-item"><a href="#ventajas">VENTAJAS</a></li><!--
+								--><li class="menu-item"><a href="#calidad">CALIDAD</a></li><!--
+								--><li class="menu-item"><a href="#mejora">MEJORA</a></li><!--
+								--><!--<li class="menu-item"><a href="#video">VIDEO</a></li>--><!--
+								--><li class="menu-item"><a href="#contacto">CONTACTO</a></li><!--
+								--><li class="menu-item btn-login"><a href="http://admin.typhoon-offshore.com"><span class="oi" data-glyph="person"></span></a></li>
+							</ul>
+						</div>
+					</div>
+				</header>
+			</div>
+		</div>
+
+		<!-- Mobile header -->
+		<div class="row mobile-header d-md-none d-block no-mobile-padding">
+			<div class="col-12">
+				<div class="row no-mobile-padding">
+					<div class="col-6 offset-3 p-2 text-center">
+						<img src="assets/images/Logo-Typhoon.png" alt="Typhoon Logo" height="50"/>
+					</div>
+					<div class="col-1 offset-2">
+						<div class="menu-btn float-right">
+							<button type="button" id="menu-toggle"><span class="oi" data-glyph="menu"></span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mobile-header-layout d-md-none d-block">
+			<div class="row">
+				<div class="col-12">
+					<ul>
+						<li class="menu-item"><a href="#inicio">INICIO</a></li>
+						<li class="menu-item"><a href="#somos">SOMOS</a></li>
+						<li class="menu-item"><a href="#servicios">SERVICIOS</a></li>
+						<li class="menu-item"><a href="#ventajas">VENTAJAS</a></li>
+						<li class="menu-item"><a href="#calidad">CALIDAD</a></li>
+						<li class="menu-item"><a href="#mejora">MEJORA</a></li>
+						<li class="menu-item"><a href="#video">VIDEO</a></li>
+						<li class="menu-item"><a href="#contacto">CONTACTO</a></li>
+						<!--<li class="menu-item btn-login"><a href="#"><span class="oi" data-glyph="person"></span></a></li>-->
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- SLIDER SECTION -->
+		<div class="row no-mobile-padding">
+			<div class="col-md-12 slider" id="inicio">
+				<!--<div class="background animated fadeIn slower"></div>-->
+				<div class="background"></div>
+				<div class="black-layer d-none"></div>
+				<div class="slider-container">
+					
+					<h1 class="d-none h01 arvo">Los retos nos fortalecen y nos motivan.</h1>
+					<h2 class="d-none h02 arvo">El mundo está en constante crecimiento y demandando más energía</h2>
+
+					<h1 class="d-none h03 arvo">En Typhoon Offshore estamos preparados</h1>
+					<h2 class="d-none h04 arvo">para aprovechar esa energía de la forma más segura y eficiente.</h2>
+				</div>
+			</div>
+		</div>
+
+		<!--EMPTY SPACE-->
+		<div class="row d-none d-md-block">
+			<div class="col-md-12">
+				<div class="md-empty-space"></div>
+			</div>
+		</div>
+	
+		<!--TAB-->
+		<div class="row show-on-mobile" id="somos">
+			<div class="row d-block d-md-none">
+				<div class="col-md-12">
+					<h2 class="hold animated ticked" data-animation="fadeIn" data-animation-speed="slow">ACERCA DE</h2>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="zoom-image hold animated" data-animation="fadeInLeft" data-animation-speed="fast">
+					<img src="assets/images/petrolera.jpg" class="img img-responsive" alt="">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row d-none d-md-block">
+					<div class="col-md-12">
+						<h2 class="hold animated ticked" data-animation="fadeIn" data-animation-speed="slow">ACERCA DE</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 hold animated" data-animation="fadeInRight" data-animation-speed="slow">
+						
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item">
+							<a class="nav-link active" id="somos-tab" data-toggle="tab" href="#01" role="tab" aria-controls="home" aria-selected="true">Somos</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" id="mision-tab" data-toggle="tab" href="#02" role="tab" aria-controls="profile" aria-selected="false">Misión y visión</a>
+							</li>
+							<li class="nav-item">
+							<a class="nav-link" id="valores-tab" data-toggle="tab" href="#03" role="tab" aria-controls="contact" aria-selected="false">Valores</a>
+							</li>
+						</ul>
+
+						<div class="xs-empty-space"></div>
+						<div class="tab-content">
+							<div class="tab-pane fade show active text-justify" id="01" role="tabpanel" aria-labelledby="home-tab">
+								Somos Typhoon Offshore, una empresa orgullosamente mexicana comprometida con el desarrollo energético del país. <br/>
+								Desde el 2013, operamos para satisfacer la demanda de la industria petrolera en el Golfo de México mediante un esquema de servicios integrales para las intervenciones a pozos petroleros y soporte en el mantenimiento de plataformas fijas costa afuera de Pemex. En Typhoon Offshore, nuestro objetivo es ser los mejores en lo que hacemos.
+							</div>
+							<div class="tab-pane fade text-justify" id="02" role="tabpanel" aria-labelledby="profile-tab">
+								<h6 class="bulleted">Misión</h6>
+								Estamos comprometidos con marcar una diferencia en los servicios integrales en la industria petrolera, asegurando la generación de valor a los accionistas y el éxito de nuestra clientela, así́ como la sustentabilidad e impacto hacia nuestra comunidad interna y extendida en constante crecimiento.
+								<br/>
+								<br/>
+								<h6 class="bulleted">Visión</h6>
+								Trabajamos por ser la mejor empresa mexicana de servicios integrales en la industria petrolera, basándonos siempre en nuestro código de valores, el cual proporciona un punto de referencia compartido para cada acción que aplicamos y cada decisión que tomamos fortaleciendo que nuestras operaciones sean seguras y responsables.
+							</div>
+							<div class="tab-pane fade text-justify" id="03" role="tabpanel" aria-labelledby="contact-tab">
+
+								<h6 class="bulleted">Honestidad:</h6>
+								En Typhoon Offshore demostramos integridad en todo lo que hacemos. Compartimos conocimiento, ideas e información internamente, con nuestros socios comerciales y grupos de interés.
+								<br/>
+								<br/>
+								<h6 class="bulleted">Ejecución:</h6>
+								En este mundo en constante cambio, Typhoon Offshore nunca dejará de trabajar para satisfacer las necesidades futuras de nuestra clientela e impulsar la industria energética de México.
+								<br/>
+								<br/>
+								<h6 class="bulleted">Lealtad a la empresa:</h6>
+								Compartimos con orgullo y pasión el ser parte de Typhoon Offshore; nuestro comportamiento dentro y fuera de la empresa es en apego a nuestros valores.
+								<br/>
+								<br/>
+								<h6 class="bulleted">Respeto y confianza mutuos:</h6>
+								Mantenemos un diálogo abierto y constante internamente y con nuestros socios comerciales. Creemos que el trabajo en equipo es fundamental para lograr los mejores resultados en cada una de nuestras actividades.
+								<br/>
+								<br/>
+								<h6 class="bulleted">Enfoque al cliente:</h6>
+								Typhoon Offshore enfoca sus esfuerzos en generar un valor superior para nuestra clientela, buscando así su satisfacción y fidelización. 
+								<br/>
+								<br/>
+							</div>
+						</div>
+
+						<div class="md-empty-space"></div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--EMPTY SPACE-->
+		<div class="row d-none d-md-block">
+			<div class="col-md-12">
+				<div class="md-empty-space"></div>
+			</div>
+		</div>
+
+		<div class="row" id="servicios">
+			<div class="col-md-12">
+				<h2 class="text-center section-title hold animated" data-animation="fadeIn" data-animation-speed="slow">SERVICIOS</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 p-0">
+				<div class="zoom-image hold animated" data-animation="zoomIn" data-animation-speed="">
+					<img src="assets/images/ReparacionPozos.jpg" class="img img-responsive cover" alt="">
+					<h3>Reparación de pozos</h3>
+					<p style="top:22%;">Para restablecer la producción y aumentar la vida productiva del pozo, realizamos trabajos de limpiezas, inducciones, estimulaciones, fracturamientos, disparos y cambio de zona productora:<br/>
+							<strong>Reparación menor (Rme)</strong>. Intervención al pozo en la cual no se modifica el yacimiento.<br/>
+							<strong>Reparación mayor (RM)</strong>. Intervención al pozo en la cual se cambian las características del yacimiento.</p>
+					<div class="overlay">
+						
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 p-0">
+				<div class="zoom-image hold animated" data-animation="zoomIn" data-animation-speed="">
+					<img src="assets/images/TerminacionPozos.png" class="img img-responsive cover" alt="">
+					<h3>Terminación de pozos</h3>
+					<p style="top:30%;">
+						Tiene como propósito localizar y producir hidrocarburos de manera comercial, segura y rentable. Una vez perforado el pozo, es necesario acondicionarlo con tubería de producción y accesorios que permitan conducir los hidrocarburos a superficie de manera optimizada.
+					</p>
+					<div class="overlay"></div>
+				</div>
+			</div>
+			<div class="col-md-3 p-0">
+				<div class="zoom-image hold animated" data-animation="zoomIn" data-animation-speed="">
+					<img src="assets/images/MantenimientoPozos.jpg" class="img img-responsive cover" alt="">
+					<h3>Mantenimiento de pozos</h3>
+					<p style="top:30%;">
+						Puede ser preventivo o correctivo y busca mantener al pozo en condiciones de producción mediante la resolución de problemas específicos o de control del yacimiento. Para evitar costos elevados, los pozos deben recibir mantenimiento preventivo de sus partes periódicamente.
+					</p>
+					<div class="overlay"></div>
+				</div>
+			</div>
+			<div class="col-md-3 p-0">
+				<div class="zoom-image hold animated" data-animation="zoomIn" data-animation-speed="">
+					<img src="assets/images/MantenimientoEstructural.png" class="img img-responsive cover" alt="">
+					<h3>Mantenimiento estructural a instalaciones petroleras</h3>
+					<p style="top:17%;width: 85%;">
+							El mantenimiento es una actividad de carácter preventivo que debe ser programada para evitar o retrasar la aparición de problemas en las instalaciones relacionadas con resistencia mecánica, durabilidad, funcionalidad y/o estética de los materiales.<br/>
+							Con lo anterior, el nivel de prestaciones para el que ha sido proyectada la instalación no disminuirá durante su vida útil o por debajo de un cierto umbral.
+					</p>
+					<div class="overlay"></div>
+				</div>
+			</div>
+		</div>
+
+		<!--EMPTY SPACE-->
+		<div class="row d-none d-md-block">
+			<div class="col-md-12">
+				<div class="md-empty-space"></div>
+			</div>
+		</div>
+
+		<!-- SISTEMA DE GESTIÓN INTEGRAL -->
+		<div class="row" id="ventajas">
+			<div class="col-md-12">
+				<h2 class="text-center section-title hold animated" data-animation="fadeIn" data-animation-speed="slow">VENTAJAS COMPETITIVAS</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="row">
+					<div class="col-md-4 specs-card hold animated p-2" data-animation="fadeInLeft" data-animation-speed="slow">
+						<div class="specs-card-title">
+							<h3><img src="assets/images/TickBullet.png" alt="Reputación">Reputación</h3>
+						</div>
+						<ul>
+							<li class="bulleted">Cuidamos y construimos contantemente nuestra credibilidad hacia la clientela, organismos reguladores y principales partes interesadas.</li>
+							<li class="bulleted">Sistema de Gestión Integral (SGI) auditado de manera independiente.</li>
+						</ul>
+					</div>
+					<div class="col-md-4 specs-card hold animated p-2" data-animation="fadeIn" data-animation-speed="slow">
+						<div class="specs-card-title">
+							<h3><img src="assets/images/TickBullet.png" alt="Reputación">Eficiencia</h3>
+						</div>
+						<ul>
+							<li class="bulleted">Generamos soluciones rentables y óptimas para nuestra clientela.</li>
+							<li class="bulleted">Identificamos y minimizamos riesgos en cuanto a salud, seguridad y medio ambiente.</li>
+							<li class="bulleted">Cumplimos con legislación aplicable y exigencias legales.</li>
+						</ul>
+						
+					</div>
+					<div class="col-md-4 specs-card hold animated p-2" data-animation="fadeInRight" data-animation-speed="slow">
+						<div class="specs-card-title">
+							<h3><img src="assets/images/TickBullet.png" alt="Reputación">Responsabilidad social</h3>
+						</div>
+						<ul>
+							<li class="bulleted">Generamos un entorno saludable y seguro para nuestros empleados y comunidad extendida.</li>
+							<li class="bulleted">Colaboramos con organizaciones respetuosas del medio ambiente.</li>
+							<li class="bulleted">Buscamos el desarrollo y crecimiento de nuestra comunidad.</li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- IMAGE BANNER -->
+		<div class="row no-mobile-padding">
+			<div class="col-md-12">
+				<div class="image-banner hold animated" data-animation="fadeIn" data-animation-speed="slow">
+					<img src="assets/images/Ventajas-Competitivasv2.png" alt="Petrolera">
+				</div>
+			</div>
+		</div>
+
+
+		<!--EMPTY SPACE-->
+		<div class="row d-none d-md-block">
+			<div class="col-md-12">
+				<div class="md-empty-space"></div>
+			</div>
+		</div>
+
+		<!-- ESTANDARES DE CALIDAD -->
+		<div class="row" id="calidad">
+			<div class="col-md-12">
+				<h2 class="text-center section-title hold animated" data-animation="fadeIn" data-animation-speed="slow">ESTÁNDARES DE CALIDAD</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<p class="text-center p-3 pb-0 mb-0">Nos regimos a través de un Sistema de Gestión Integral (SGI) como prioridad en nuestro modelo de trabajo. Esto lo conseguimos a través de la implementación de diversas certificaciones orientadas a la calidad y a la responsabilidad de nuestras actividades. </p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="row">
+					<div class="col-md-4 specs-card hold animated" data-animation="fadeInLeft" data-animation-speed="slow">
+						<div class="top-icon-card">
+							<img src="assets/images/ISO9001.jpg" alt="ISO 9001-2008">
+						</div>
+						<div class="specs-card-title">
+							<h3 class="text-center">Calidad en el servicio <br/>ISO 9001</h3>
+						</div>
+						<div class="content">
+							Todos los miembros de Typhoon Offshore estamos comprometidos con el reto de lograr ofrecer altos estándares de calidad y satisfacción a nuestra clientela a través de la innovación. <br/>
+							El SGI es una pieza necesaria para lograr obtener los resultados esperados, propiciando un entorno correcto en la ejecución de los servicios que ofrecemos.
+						</div>
+					</div>
+					<div class="col-md-4 specs-card hold animated" data-animation="fadeIn" data-animation-speed="slow">
+						<div class="top-icon-card">
+							<img src="assets/images/ISO14001.jpg" alt="ISO 14001">
+						</div>
+						<div class="specs-card-title">
+							<h3 class="text-center">Protección ambiental<br/>ISO 14001</h3>
+						</div>
+						<div class="content">
+							Typhoon Offshore ofrece sus servicios de manera responsable, utilizando los recursos disponibles con eficiencia y minimizando el impacto medioambiental.<br/>
+							La política medioambiental establece la vigilancia, cumplimiento y medición de las diferentes actividades en lugares de trabajo, obras y servicios.<br/>
+							Asimismo, implementamos sistemas de gestión para la mejora permanente de los procesos y capacidades técnicas.
+						</div>
+					</div>
+					<div class="col-md-4 specs-card hold animated" data-animation="fadeInRight" data-animation-speed="slow">
+						<div class="top-icon-card">
+							<img src="assets/images/ISO45001.jpg" alt="OHSAS 18001">
+						</div>
+						<div class="specs-card-title">
+							<h3 class="text-center">Entorno sano y saludable <br/>ISO 45001</h3>
+						</div>
+						<div class="content">
+							La completa prevención de riesgos laborales es la prioridad absoluta de seguridad que compete a todos los miembros de Typhoon Offshore. Asimismo, a través de esta certificación prevenimos el deterioro de la salud de nuestros trabajadores, proporcionando un lugar de trabajo seguro y saludable.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!--EMPTY SPACE-->
+		<div class="row d-none d-md-block">
+			<div class="col-md-12">
+				<div class="md-empty-space"></div>
+			</div>
+		</div>
+
+		<!-- FACTORES DE DIFERENCIACIÓN -->
+		<div class="row factores" id="mejora">
+			<div class="col-md-10 offset-md-1 hold animated p-5" data-animation="fadeInLeft" data-animation-speed="slow">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="p-3 arvo">MEJORA CONTINUA</h3>
+						<div class="content icon-left">
+							<div class="icon">
+								<img src="assets/images/TickBullet-2.png" alt="Reputación">
+							</div>
+							<div class="text">
+								En Typhoon Offshore estamos comprometidos con la máxima eficacia y eficiencia de nuestros procesos y actividades, lo cual se consigue a través del enfoque en el aprendizaje, las técnicas de prevención y la mejora continua.
+							</div>
+						</div>
+						<div class="content icon-left">
+							<div class="icon">
+								<img src="assets/images/TickBullet-2.png" alt="Reputación">
+							</div>
+							<div class="text">
+								Nuestros objetivos son: identificar y minimizar los riesgos de salud, accidentes y siniestros; minimizar el impacto negativo que nuestros procesos y actividades generan en materia ambiental; y aumentar la satisfacción de nuestra clientela y expectativas de los accionistas.
+							</div>
+							<!--<div class="text">En Typhoon Offshore estamos comprometidos con la máxima eficacia y eficiencia de nuestros procesos y actividades, lo cual se consigue a través del enfoque en el aprendizaje, las técnicas de prevención y la mejora continua. Nuestros objetivos son:
+								<ul>
+									<li>Identificar y minimizar los riesgos de salud, accidentes y siniestros.</li>
+									<li>Minimizar el impacto negativo que nuestros procesos y actividades generan en materia ambiental.</li>
+									<li>Aumentar la satisfacción de nuestra clientela y expectativas de los accionistas.</li>
+								</ul>
+						 	
+							</div>-->
+						</div>
+					</div>
+					<div class="col-md-6">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--VIDEO-->
+		<div class="row video d-none">
+			<div class="col-md-12">
+
+				<div class="row" id="video">
+					<div class="col-md-12 hold animated" data-animation="fadeInLeft" data-animation-speed="slow">
+						<h2 class="text-center section-title hold animated" data-animation="fadeIn" data-animation-speed="slow">CONOCE MÁS SOBRE TYPHOON</h2>
+						<div class="row">
+							<div class="col-md-12">
+								<p class="text-center p-3 pb-0 mb-0">Conoce más sobre los esfuerzos de Typhoon Offshore para aprovechar la energía de la forma más segura y eficiente a través de este breve vídeo. </p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6 offset-md-3">
+								<iframe width="853" height="400" style="width: 100% !important;" src="https://www.youtube.com/embed/X_u5ipZ7XWs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--EMPTY SPACE-->
+		<div class="row d-none d-md-block">
+			<div class="col-md-12">
+				<div class="md-empty-space"></div>
+			</div>
+		</div>
+		<div class="row" id="contacto">
+			<div class="col-md-10 offset-md-1">
+				<div class="row">
+					<div class="col-md-4 offset-md-4 specs-card hold animated" data-animation="fadeIn" data-animation-speed="slow">
+						<div class="top-icon small main">
+							<img src="assets/images/Icon-Contacto.png" alt="Contacto"/>
+						</div>
+						<div class="specs-card-title">
+							<h3 class="text-center arvo">CONTACTO</h3>
+						</div>
+						<div class="content text-center">
+							Puedes ponerte en contacto con Typhoon Offshore a través del siguiente correo: <br/><strong>contacto@typhoon.com.mx</strong>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--<div class="row">
+			<div class="col-md-10 offset-md-1">
+				<div class="row">
+					<div class="col-md-4 specs-card hold animated" data-animation="fadeInLeft" data-animation-speed="slow">
+						<div class="top-icon small">
+							<img src="assets/images/Icon-Map.png" alt="Dirección"/>
+						</div>
+						<div class="specs-card-title sub">
+							<h3 class="text-center">Dirección</h3>
+						</div>
+						<div class="content p-3">
+							Puedes contactar a Typhoon en los siguientes medios:
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="md-empty-space"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 specs-card hold animated side-border" data-animation="fadeIn" data-animation-speed="slow">
+						<div class="top-icon small">
+							<img src="assets/images/Icon-Phone.png" alt="Teléfono"/>
+						</div>
+						<div class="specs-card-title sub">
+							<h3 class="text-center">Teléfono</h3>
+						</div>
+						<div class="content p-3">
+							Puedes contactar a Typhoon en los siguientes medios:
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="md-empty-space"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 specs-card hold animated" data-animation="fadeInRight" data-animation-speed="slow">
+						<div class="top-icon small">
+							<img src="assets/images/Icon-Mail.png" alt="Email"/>
+						</div>
+						<div class="specs-card-title sub">
+							<h3 class="text-center">Correo electrónico</h3>
+						</div>
+						<div class="content p-3">
+							Puedes contactar a Typhoon en los siguientes medios:
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="md-empty-space"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+
+		<!--EMPTY SPACE-->
+		<div class="row d-none d-md-block">
+			<div class="col-md-12">
+				<div class="md-empty-space"></div>
+			</div>
+		</div>
+
+		<!--FOOTER-->
+		<div class="row footer hold animated" data-animation="fadeInUp" data-animation-speed="slow">
+			<div class="col-md-6 offset-md-3 p-5">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<br/>
+						<img class="img img-responsive" src="assets/images/Logo-Typhoon-White.png" alt="Typhoon Logo"/>
+					</div>
+				</div>
+				<div class="row pl-5">
+					<div class="col-md-6">
+						<div class="footer-menu">
+							<ul>
+								<li class="text-center bulleted"><a href="/codigo-de-etica">Código de Ética</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="footer-menu">
+							<ul>
+								<li class="text-center bulleted"><a href="/politica-del-sgi">Política del SGI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+							</ul>
+						</div>						
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="text-center">Typhoon Offshore S.A. de C.V. Todos los derechos reservados.</p>
+						<p class="text-center author">Sitio desarrollado por <a href="http://zuaestudio.com/" class="no-anchor"><strong>Zúa Estudio</strong></a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script src="assets/js/animations.js"></script>
+<script type="text/javascript">
+
+	/*SLIDER LOAD WAITER*/
+	let img = new Image();
+	img.onload = function() {
+	    $("#inicio .background").css("background", "url(./assets/images/MainSlider/slider.jpg) no-repeat top center").css("background-size", "cover");
+	    $('#inicio .background').addClass("animated").addClass("fadeIn").addClass("slower");
+	    $('#inicio .black-layer').removeClass("d-none").addClass("animated").addClass("fadeIn").addClass("slower");
+
+	    $("#inicio .h01 ").removeClass("d-none").addClass("title-1");
+	    $("#inicio .h02 ").removeClass("d-none").addClass("subtitle-1");
+	    $("#inicio .h03 ").removeClass("d-none").addClass("title-2");
+	    $("#inicio .h04 ").removeClass("d-none").addClass("subtitle-2");
+	}
+	img.src = './assets/images/MainSlider/slider.jpg';
+	if (img.complete) img.onload();
+
+	$(document).on('click', 'a[href^="#"]:not(.nav-link)', function (event) {
+	    event.preventDefault();
+
+	    $('html, body').animate({
+	        scrollTop: $($.attr(this, 'href')).offset().top - 100
+	    }, 1500);
+	});
+
+	$(document).ready(function(){
+		$("#menu-toggle").on("click", function(){
+			$(".mobile-header-layout").toggleClass("active");
+		})
+		if(screen.height > screen.width){//mobile
+			$(".show-on-mobile *").removeClass("hold");
+			$(".show-on-mobile *").removeClass("d-none");
+			$(".show-on-mobile *").removeClass("d-md-none");
+			$(".show-on-mobile *").addClass("fadeIn");
+        }
+	});
+</script>
+</html>

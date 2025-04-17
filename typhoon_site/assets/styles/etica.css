@@ -1,0 +1,157 @@
+.etica {
+}
+.etica *{
+	font-family: Bebas Neue;
+}
+.etica .white{
+	color: white;
+}
+.etica .etica-page{
+	position: relative;
+	padding: 40px;
+	margin-bottom: 15px;
+	background-color: #383e4e;
+	box-shadow: 2px 2px 12px -3px black;
+}
+.etica .etica-e-page{
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 15px;
+	box-shadow: 2px 2px 12px -3px black;
+}
+.etica .etica-page:first-child{
+	padding-top: 200px;
+}
+.etica .etica-page .main-title{
+	font-size: 5rem;
+	padding-right: 35%;
+	color:  #81e3d2;
+	margin-bottom: 40px;
+	line-height: 5rem;
+	font-weight: 500;
+}
+.etica .etica-page .top-right-image,.etica .etica-e-page .top-right-image{
+	position: absolute;
+	right: 15px;
+	top: 75px;
+	width: 300px;
+}
+.etica .etica-page .date{
+	text-align: right;
+	color: white;
+	font-size: 1.75rem;
+}
+
+.etica .etica-page .small-top-left,.etica .etica-e-page .small-top-left{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	width: 200px;
+}
+.etica .etica-page .title{
+	font-size: 5rem;
+	color:  #81e3d2;
+	margin-bottom: 20px;
+	line-height: 5rem;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 60px;
+}
+.etica p, .etica li{
+	font-family: Open Sans;
+	letter-spacing: 0.5px;
+	font-weight: 300;
+	text-align: justify;
+}
+.etica .etica-e-page .dark-panel{
+	background-color: #383e4e;	
+}
+.etica .etica-e-page .panel{
+	padding: 15px;
+}
+.etica .etica-e-page .gray-panel{
+	background-color: #caced9;
+}
+.etica .etica-e-page .white-panel{
+	background-color: white;
+}
+.etica .etica-e-page .left-panel{
+	text-align: right;
+	padding: 15px;
+	padding-top: 100px;
+}
+.etica .etica-e-page .panel-title{
+	font-size: 4.5rem;
+	color:  #81e3d2;
+	margin-bottom: 40px;
+	line-height: 4.5rem;
+	font-weight: 500;
+	text-align: right;	
+}
+.etica .panel .panel-subtitle{
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+.etica .panel .header-title{
+	background-color:  #81e3d2;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+.etica .panel .header-black-title{
+	font-size: 3rem;
+	color:  black;
+	margin-bottom: 40px;
+	line-height: 3rem;
+	font-weight: 500;
+	text-align: right;	
+}
+.etica .panel .header-black-title.blue{
+	color: #45495e;
+}
+.etica-e-page .panel.icons-panel .row{
+	text-align: center;
+}
+.etica-e-page .panel.icons-panel img{
+	height: 150px;
+}
+.etica .panel .header-black-subtitle{
+	font-size: 2rem;
+	color:  black;
+	margin-bottom: 40px;
+	line-height: 2rem;
+	font-weight: 500;
+	text-align: right;	
+}
+.etica .panel .header-black-subtitle.lightblue{
+	color: #6c789b;
+}
+.etica .panel .header-subtitle{
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin-top: 20px;
+}
+.etica .panel .panel-footer-image{
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: -15px;
+}
+.etica .etica-e-page .full-page-image{
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.etica .etica-e-page .panel-full-image{
+	width: calc(100% + 30px);
+	margin: -15px;
+}
+.etica .etica-e-page .panel-full-width{
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	margin-right: -15px;
+}
