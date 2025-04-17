@@ -14,19 +14,9 @@ This is a static HTML/CSS/JS demo of the Typhoon Offshore admin interface for po
 2. Enter any username and password in the login form and click the button
 3. You will be redirected to a static dashboard demo
 
-## Deployment
-
-You can deploy this static demo to any web hosting service that supports static files:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Amazon S3
-- Any traditional web hosting service
-
 ## Original Project
 
-This is based on a Laravel 5.4 project. The static version maintains the look and feel of the original application while making it possible to showcase it without requiring PHP or a database.
+This is based on a Laravel 5.4 project. The static version maintains the look and feel of the original application while making it possible to showcase it without requiring PHP or a database. Due limitations from an absent backend, the features showcased are less than the actual project. The code for all these features can be found in this repository.
 
 ## Note
 
