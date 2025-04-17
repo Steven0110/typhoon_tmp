@@ -28,16 +28,6 @@ The admin dashboard is a static demonstration for portfolio purposes. It include
 - The admin dashboard has a "Back to Site" link to return to the main website
 - All navigation within each section is fully functional
 
-## GitHub Pages Deployment
-
-This branch (gh-pages) is structured for GitHub Pages hosting:
-
-1. All content is placed in the root directory as required by GitHub Pages
-2. To deploy:
-   - Push this branch to GitHub
-   - Go to your repository settings
-   - Under "GitHub Pages", select the "gh-pages" branch as the source
-   - The site will be published at https://yourusername.github.io/repository-name/
 
 ## Development Notes
 
