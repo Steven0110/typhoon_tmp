@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/icons/font/css/open-iconic-bootstrap.min.css">
+    <title>Typhoon Offshore | Administrator</title>
+</head>
+<body class="login-page" style="overflow-x: hidden;">
+    <div class="container-fluid p-0">
+        <!-- Header would go here -->
+        <div class="row">
+            <div class="col-md-12">
+            </div>
+        </div>
+        <div class="login-container">
+            <div class="text-center mb-4">
+                <img src="assets/img/Logo-Typhoon.png" alt="Typhoon Offshore Logo" class="logo-login" style="max-width: 200px;">
+            </div>
+            <form action="#" method="POST" onsubmit="event.preventDefault(); showPortfolioMessage();">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center title-icon"><span class="oi oi-person"></span></p>
+                        <h4 class="text-center">Login</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="text" name="username" placeholder="Username" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <input type="password" name="password" placeholder="Password" class="form-control" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="portfolio-message" style="display: none;">
+                    <div class="col-md-12">
+                        <div class="alert alert-info">This is a static portfolio demo. Backend functionality is not available.</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">
+                            <button type="submit" class="btn btn-login">
+                                <span class="oi oi-chevron-right"></span>
+                            </button>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-center">
+                            <small>If you have any questions or problems logging in, please contact support@typhoon.com.mx or call 5556578899</small>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Footer would go here -->
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script>
+    function showPortfolioMessage() {
+        document.getElementById('portfolio-message').style.display = 'block';
+        setTimeout(function() {
+            window.location.href = 'dashboard.html';
+        }, 2000);
+    }
+    </script>
+</body>
+</html> 

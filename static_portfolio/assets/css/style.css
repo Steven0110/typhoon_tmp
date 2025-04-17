@@ -1,0 +1,93 @@
+/****************************/
+/* 							*/
+/* 							*/
+/* 			LOGIN			*/
+/* 							*/
+/* 							*/
+/****************************/
+body, html{
+	height: 100%;
+}
+.login-page{
+	background: #001928;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.login-container{
+	font-size: 0.8em;
+	position: fixed;
+	top: 17%;
+	left:0;
+	right:0;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,255, 0.8);
+	border-radius: 10px 10px 0 0;
+	width: 500px;
+	padding: 25px;
+	padding-bottom: 0px;
+}
+.login-container::after{
+	left:0;
+	content: '';
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	background-color: #21FBF4;
+}
+.login-container::before{
+	left:0;
+	content: '';
+	height: 5px;
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	background-color: #1B334B;
+}
+.login-container small{
+	font-size: 0.9em;
+	color: #1B334B;
+}
+.login-container p.title-icon{
+	font-size: 1.8em;
+	margin-bottom: 0;
+}
+.btn-login{
+	border-radius: 50%;
+	background-color: #1B334B;
+	color: #21FBF4;
+	font-weight: 100;
+}
+.oi:empty:before{
+	margin-left: 4px;
+}
+
+/****************************/
+/* 							*/
+/* 							*/
+/* 			DASHBOARD		*/
+/* 							*/
+/* 							*/
+/****************************/
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,0.03);
+}
+
+footer {
+    border-top: 1px solid #eee;
+} 
