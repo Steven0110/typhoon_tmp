@@ -45,9 +45,47 @@ If not using GitHub Pages, simply place the entire project on any web server or 
 
 ## Development Notes
 
-- The main site uses Bootstrap 4 for responsive design
-- The admin dashboard uses Bootstrap 4 as well, with a separate set of styles
-- The logo and branding elements are shared between the main site and admin dashboard
+### Technologies Used
+
+- **Frontend Framework:** Bootstrap 4.0.0 for responsive layout and components
+- **CSS:**
+  - Custom CSS for site-specific styling
+  - CSS animations for smooth transitions and interactions
+  - Mobile-first responsive design approach
+- **JavaScript:**
+  - jQuery 3.2.1 for DOM manipulation
+  - Custom animations and interactive elements
+  - Popper.js for tooltip and popover positioning
+- **Icons and Imagery:**
+  - Open Iconic icon library for consistent iconography
+  - Optimized images for improved performance
+  - SVG and WebP formats for modern browsers
+- **Fonts:**
+  - Google Fonts (Open Sans) for typography
+  - Custom Arvo font for specific headings
+- **Performance Optimizations:**
+  - Minimized HTTP requests
+  - Optimized asset loading
+  - Responsive images for different device sizes
+- **Design Patterns:**
+  - Component-based architecture
+  - Separation of concerns between structure, presentation, and behavior
+  - Consistent branding elements across main site and admin dashboard
+
+### Browser Compatibility
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- IE11 (basic support)
+
+### Accessibility Considerations
+
+- Semantic HTML structure
+- ARIA attributes where applicable
+- Keyboard navigation support
+- Color contrast compliance
 
 ## Credits
 
